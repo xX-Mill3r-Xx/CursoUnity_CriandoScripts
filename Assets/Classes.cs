@@ -25,8 +25,13 @@ public class Classes : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(Dog.raca);
-        Debug.Log(Dog.idade);
-        Debug.Log(Dog.tamanho);
+        //Debug.Log(Dog.raca);
+        //Debug.Log(Dog.idade);
+        //Debug.Log(Dog.tamanho);
+
+        Statics.estaticos.AumentarVida();
+        Debug.Log("Seu total de vidas é: " + Statics.estaticos.Vidas);
     }
+
+
 }
