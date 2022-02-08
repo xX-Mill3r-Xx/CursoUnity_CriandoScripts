@@ -420,6 +420,8 @@ GameObject:
   - component: {fileID: 713243415}
   - component: {fileID: 713243414}
   - component: {fileID: 713243419}
+  - component: {fileID: 713243421}
+  - component: {fileID: 713243420}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -534,6 +536,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &713243420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713243413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a9cd11a3fd94c44986ba85f4503fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &713243421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713243413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f33b2d1514d1264789f33831ea9e85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &760888842
 GameObject:
   m_ObjectHideFlags: 0
